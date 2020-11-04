@@ -9,5 +9,6 @@ namespace webmobiapi.wemobiapi.Interfaces
     {
         [Get("/places/searchOrigin")]
         Task<BaseContent<OriginViewModel>> GetAllOriginAsync();
+         
     }
 }

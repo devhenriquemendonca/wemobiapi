@@ -10,4 +10,5 @@ namespace webmobiapi
         [JsonProperty("result")]
         public IList<T> Result { get; set; } = new List<T>();
     }
+
 }
